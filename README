@@ -1,0 +1,53 @@
+Installation
+============
+
+How to install pidgin-twitter-status
+
+Introduction
+------------
+
+Requirements:
+
+Pidgin, Perl and the following two Perl modules, which you may have to install manually:
+
+    * XML::RSS
+    * LWP::Simple 
+
+Details
+-------
+Is Pidgin Perl enabled?
+
+In Pidgin, navigate to Help->About and find Perl: Enabled If Perl is not enabled, you may have to install Perl and then re-install Pidgin.
+Install XML::RSS and LWP::Simple
+
+This depends on your operating system, but could be as simple as
+
+# cpan XML::RSS
+# cpan LWP::Simple
+
+If your OS or Perl installation uses a package system it's recommended you install the modules using that, if possible.
+
+Install pidgin-twitter-status
+=============================
+
+Windows
+-------
+
+Copy twitter-status.pl to your pidgin plugins directory. Usually C:\Documents and Settings\
+
+<your_user_name>
+
+\Pidgin\plugins
+
+Linux
+-----
+
+Copy twitter-status.pl to your pidgin plugins directory Usually ~/.purple/plugins/
+
+Mac OSX
+-------
+
+Pidgin is not available for Mac OS, but this plugin may work with Adium. I don't know, as I don't have regular access to a Mac. YMMV...
+Enable pidgin-twitter-status
+
+Using Pidgin, navigate to Tools -> Plugins and find Twitter Status. Enable it, and click the Configure Plugin button to open the plugin configuration dialog. Enter your Twitter RSS user feed (locate it on your twitter user page, you might need to switch to oldtwitter to find it), configure other options, and click Close. 
