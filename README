@@ -50,4 +50,4 @@ Mac OSX
 Pidgin is not available for Mac OS, but this plugin may work with Adium. I don't know, as I don't have regular access to a Mac. YMMV...
 Enable pidgin-twitter-status
 
-Using Pidgin, navigate to Tools -> Plugins and find Twitter Status. Enable it, and click the Configure Plugin button to open the plugin configuration dialog. Enter your Twitter RSS user feed (locate it on your twitter user page, you might need to switch to oldtwitter to find it), configure other options, and click Close. 
+Using Pidgin, navigate to Tools -> Plugins and find Twitter Status. Enable it, and click the Configure Plugin button to open the plugin configuration dialog. Enter your Twitter RSS user feed (http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=username), configure other options, and click Close. 
